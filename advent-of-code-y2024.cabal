@@ -9,12 +9,13 @@ author:             clatisus
 maintainer:         clatisus@gmail.com
 
 common warnings
-    ghc-options: -Wall
+  ghc-options: -Wall
 
 executable advent-of-code-y2024
-    import:           warnings
-    main-is:          Main.hs
-    other-modules:
-    build-depends:    base ^>=4.18.3.0
-    hs-source-dirs:   app, src
-    default-language: Haskell2010
+  import:           warnings
+  main-is:          Main.hs
+  other-modules:
+    Day1
+  build-depends:    base ^>=4.18.3.0, split
+  hs-source-dirs:   app, src
+  default-language: Haskell2010
