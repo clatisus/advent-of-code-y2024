@@ -16,6 +16,7 @@ executable advent-of-code-y2024
   main-is:          Main.hs
   other-modules:
     Day1
+    Day2
   build-depends:    base ^>=4.18.3.0, split
   hs-source-dirs:   app, src
   default-language: Haskell2010
