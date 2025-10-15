@@ -19,6 +19,7 @@ executable advent-of-code-y2024
     Day2
     Day3
     Day4
-  build-depends:    base ^>=4.18.3.0, split, regex-tdfa
+    Day5
+  build-depends:    base ^>=4.18.3.0, split, regex-tdfa, containers
   hs-source-dirs:   app, src
   default-language: Haskell2010
